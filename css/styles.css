@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Bigilla";
+  src: url("../fonts/Bigilla.otf") format("opentype");
+  /* Add other font formats and styles as needed */
+}
+
+@font-face {
+  font-family: "Sk-Modernist";
+  font-weight: bold;
+  src: url("../fonts/Sk-Modernist-Bold.otf") format("opentype");
+  /* Add other font formats and styles as needed */
+}
+
 * {
   margin: 0;
   padding: 0;
