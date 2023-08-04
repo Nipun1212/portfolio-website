@@ -1,5 +1,11 @@
 @font-face {
   font-family: "Bigilla";
+  src: url("../fonts/Bigilla-Bold.otf") format("opentype");
+  /* Add other font formats and styles as needed */
+}
+
+@font-face {
+  font-family: "Bigilla";
   src: url("../fonts/Bigilla.otf") format("opentype");
   /* Add other font formats and styles as needed */
 }
@@ -84,7 +90,7 @@ body {
 
 .hero-image {
   width: 100%;
-  margin-top: -300px;
+  margin-top: -450px;
 }
 
 .hero-image::after {
@@ -403,6 +409,7 @@ body {
   width: 100%;
   height: 100%; /* Use 100% height to fill the entire container and maintain aspect ratio of the big image */
 }
+
 .big-image_2-2 img {
   width: 50%;
   height: 50%; /* Use 100% height to fill the entire container and maintain aspect ratio of the big image */
@@ -420,6 +427,7 @@ body {
   width: 100%;
   height: 40%; /* Use 100% height to fill the entire container and maintain aspect ratio of the small images */
 }
+
 .small-images_2 .small-image-2 img {
   width: 100%;
   height: 50%; /* Use 100% height to fill the entire container and maintain aspect ratio of the small images */
@@ -435,6 +443,7 @@ body {
   width: 100%;
   height: auto; /* Maintain aspect ratio of the images */
 }
+
 .project-nav .project-nav-container {
   display: flex;
   justify-content: space-between;
