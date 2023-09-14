@@ -444,6 +444,20 @@ body {
   height: auto; /* Maintain aspect ratio of the images */
 }
 
+.img-container_4 {
+  display: flex; /* Set the container as a flex container */
+}
+
+.img-container_4 .big-image {
+  flex: 1; /* Distribute available space equally between the images */
+  margin: 5px; /* Add some margin for spacing */
+}
+
+.img-container_4 .big-image img {
+  width: 100%; /* Make sure the image takes up the full width of its container */
+  height: 400px;
+}
+
 .project-nav .project-nav-container {
   display: flex;
   justify-content: space-between;
