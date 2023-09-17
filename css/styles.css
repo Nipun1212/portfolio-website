@@ -318,13 +318,13 @@ body {
 .work .work-container .heading div {
   font-family: "Bigilla";
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .work .work-container p {
   /* font-family: "Bigilla"; */
 
-  font-size: 30px;
+  font-size: 37px;
 }
 
 @media (max-width: 900px) {
@@ -455,7 +455,6 @@ body {
 
 .img-container_4 .big-image img {
   width: 100%; /* Make sure the image takes up the full width of its container */
-  height: 400px;
 }
 
 .project-nav .project-nav-container {
